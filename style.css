@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  height: 60px;
+  width: 1040px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+i {
+  font-size: 24px;
+}
+.content1 {
+  /* width: 1000px;  */
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1000px) {
+  .content1 {
+    justify-content: center;
+  }
+  .achievement {
+    justify-content: center;
+  }
+}
+.page1 {
+  background-color: #d8ccbe;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.introduction {
+  /* width: 100vw; */
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 250px; */
+  /* min-width: 0; */
+  max-width: 100vw;
+}
+
+@font-face {
+  font-family: "Font Digital";
+  src: url(./image/Roboto-Regular.ttf);
+}
+#hello {
+  font-size: 40px;
+  font-family: "Font Digital";
+  font-weight: lighter;
+  max-width: 100vw;
+  /* background-color: blue; */
+}
+#nama {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  padding-top: 10px;
+  display: flex;
+  max-width: 100vw;
+}
+
+#job {
+  font-family: "Font Digital";
+  font-size: 32px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  #hello {
+    text-align: center;
+  }
+  #nama {
+    text-align: center;
+  }
+  #job {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+.achievement {
+  width: 500px;
+  display: flex;
+  max-width: 100vw;
+}
+@font-face {
+  font-family: "Font Digital2";
+  src: url(./image/Lato-Regular.ttf);
+}
+#num {
+  font-family: "Font Digital2";
+  font-size: 55px;
+  color: #8e7f6e;
+}
+#client {
+  height: 48px;
+  padding-right: 50px;
+  font-family: "Font Digital2";
+  font-size: 16px;
+  color: #605a51;
+}
+#descClient {
+  width: 120px;
+  font-family: "Font Digital2";
+  font-size: 12px;
+  color: #605a51;
+  font-style: italic;
+}
+.foto {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.page2 {
+  background-color: #292e33;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.content2 {
+  /* width: 1000px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1000px) {
+  .content2 {
+    justify-content: center;
+  }
+}
+@font-face {
+  font-family: "Gantari";
+  src: url(./image/Gantari-Regular.ttf);
+}
+#title {
+  font-family: "Gantari";
+  font-size: 16px;
+  color: #8e7f6e;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.isi {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+@media (max-width: 750px) {
+  .isi {
+    justify-content: center;
+  }
+  #strength {
+    justify-content: center;
+  }
+  #desc {
+    /* justify-content: center; */
+    text-align: center;
+  }
+}
+.jenis {
+  width: 250px;
+}
+#strength {
+  font-size: 20px;
+  font-family: "Gantari";
+  font-weight: 400;
+  color: white;
+  padding-top: 30px;
+  display: flex;
+}
+#desc {
+  font-size: 14px;
+  font-family: "Gantari";
+  color: white;
+  padding-top: 20px;
+  display: flex;
+  padding-right: 10px;
+}
+.page3 {
+  background-color: #d8ccbe;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.content3 {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#title2 {
+  width: 1000px;
+  font-family: "Gantari";
+  font-size: 16px;
+  color: #8e7f6e;
+  padding-top: 50px;
+}
+#about {
+  font-family: "Gantari";
+  font-size: 36px;
+  color: black;
+  padding-top: 30px;
+}
